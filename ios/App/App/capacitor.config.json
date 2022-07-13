@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "deliverooApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

@@ -1,0 +1,63 @@
+  <ion-header collapse="condense" scroll-y="false">
+    <br>
+    <br>
+    <ion-toolbar>
+      <ion-title size="large" class="ion-text-center">Travel Request</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-content scroll-y="false">
+  <div id="container">
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Name </ion-label>
+      <ion-input class="inputClass" type="text" [(ngModel)]="name"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Vessel </ion-label>
+      <ion-input class="inputClass" type="text" [(ngModel)]="vessel"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Vessel Identifier</ion-label>
+      <ion-input class="inputClass" type="number" [(ngModel)]="vesselIdentifier"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Type</ion-label>
+      <ion-input class="inputClass" type="text" [(ngModel)]="type"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Type of Report</ion-label>
+      <ion-input class="inputClass" type="text" [(ngModel)]="TypeOfReport"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Details</ion-label>
+      <ion-input class="inputClass" type="text" [(ngModel)]="details"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Destination</ion-label>
+      <ion-input class="inputClass" type="text" [(ngModel)]="Destination"></ion-input>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label class="inputText" position="stacked" color="primary">Number of people on board</ion-label>
+      <ion-input class="inputClass" type="number" [(ngModel)]="NumberOfPeopleOnBoard"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item lines="none">
+      <ion-button color="primary" class="mainButton" shape="round" full (click)="post()">Submit</ion-button>
+      <ion-button href="" color="primary" class="mainButton" shape="round">Cancel/Back</ion-button>
+    </ion-item>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+</ion-content>
